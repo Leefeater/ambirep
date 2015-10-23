@@ -1,0 +1,178 @@
+/*Global Styles*/
+body {
+	background: linear-gradient(to right, #FFF0F5, #fff, #FFF0F5);
+	margin:0;
+}
+hr {
+	color:transparent;
+	height:10px;
+	width:100%;
+	background:url('bgimg/hrimg.gif');
+	margin-top:0;
+}
+
+/*Typography*/
+.cursive {
+	font-family: 'Great Vibes', cursive;
+	color:#F189AF;
+}
+
+/*Home page header*/
+.main-header {
+	height:85px;
+	background-color:#FCDBE4;
+	background-image:url('bgimg/ambi_sfskyline.jpg');
+	background-repeat:no-repeat;
+	background-position:bottom right
+}
+.logo {
+	float:left;
+}
+.sky-line {
+	float:right;
+}
+
+/*Navigation Sytles*/
+.main-nav {
+	background:#F189AF;
+	border:none;
+	margin-bottom:0;
+}
+.main-nav li:last-child {
+	margin-right:20px;
+}
+.main-nav li:hover {
+	background:#FAD0DF;
+	color:white;
+}
+.main-nav a:hover {
+	background:#FAD0DF;
+	color:white;
+}
+.active-custom {
+	background:#FAD0DF;
+	border-right:1px solid #F189AF;
+	color:white;	
+}
+.active-custom a {
+	color:white;
+}
+/*Item Features section*/
+.item-feature {
+	margin-top:50px;
+	text-align:center;
+}
+.item-feature h1 {
+	font-size:80px;
+	font-weight:700;
+}
+
+/*Caoursel Custom Styles */
+#carousel-look-book {
+	width:80%;
+	margin:0 auto;
+	border:5px solid #F189AF;
+	border-radius:10px;
+}
+.car-img {
+	margin:0 auto;
+}
+/*CTA BUTTON*/
+.cta {
+	margin:20px auto;
+	width:100%;
+	text-align:center;
+}
+.cta button {
+	background:#85335C;
+}
+/*Flyer Section */
+.special {
+	width:85%;
+	margin:5px auto;
+	text-align:center;
+	height:400px;
+}
+.text-box {
+	float:left;
+	color:#666;
+}
+.text-box h2 {
+	font-size:38px;
+}
+.text-box h4 {
+	color:#F189AF;
+}
+.text-box span {
+	font-size:30px;
+}
+.flyer {
+	float:left;
+	height:350px;
+	width:280px;
+}
+.aside {
+	float:right;
+	cursor:pointer;
+}
+.aside img {
+	height:380px;
+}
+
+
+
+/*Social bar */
+.social {
+	margin-top:25px;
+	padding-top:10px;
+	height:60px;
+	background:#F189AF;
+	border-radius:10px;
+}
+.social img {
+	height:50px;
+	width:50px;
+}
+.social h2 {
+	display:inline;
+	padding-top:10px;
+	color:#666;
+}
+.social li {
+	display:inline-block;
+}
+#social-icons {
+	float:right;
+}
+/*Store Locations*/
+#about {
+	text-align:center;
+	height:500px;
+}
+#about h2
+#about h3 {
+	font-weight:700;
+	color:#666;
+}
+.badge {
+	background:#85335C;
+}
+
+.location-box {
+	height:320px;
+	display:inline-block;
+	border:1px solid #FCDBE4;
+}
+
+/*Footer*/
+footer {
+	display:block;
+	height:10px;
+	text-align:center;
+}
+
+
+/*Media Queries Notes:
+Break Points
+Nav 786px
+Flyer section 950px
